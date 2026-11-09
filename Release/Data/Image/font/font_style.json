@@ -1,0 +1,27 @@
+[
+	{
+		"idx":1,
+		"name":"Default Font",
+		"fontIndex":1,
+		"fixedHeight":12,
+		"xOffset":0,
+		"yOffset":0
+	},
+	{
+		"idx":2,
+		"name":"Large Font",
+		"fontIndex":2,
+		"fixedHeight":12,
+		"xOffset":0,
+		"yOffset":0
+	},
+	{
+		"idx":3,
+		"name":"OS Large Font",
+		"fontIndex":3,
+		"fixedHeight":12,
+		"xOffset":0,
+		"yOffset":0,
+		"keepVisualMakerFixedSizeInChange":false
+	}
+]

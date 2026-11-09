@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Games\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Games\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Games\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Games\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Games\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>Games\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Soldier.cpp">
+      <Filter>Games\Hero\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="Doctor.cpp">
+      <Filter>Games\Hero\Doctor</Filter>
+    </ClCompile>
+    <ClCompile Include="Man.cpp">
+      <Filter>Games\Hero\Man</Filter>
+    </ClCompile>
+    <ClCompile Include="Mng.cpp">
+      <Filter>Mng</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Games\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Grenade.cpp">
+      <Filter>Games\Bullet\Grenade</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Games\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Nor_3.cpp">
+      <Filter>Games\Monster\Nor_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Nor_2.cpp">
+      <Filter>Games\Monster\Nor_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Nor_1.cpp">
+      <Filter>Games\Monster\Nor_1</Filter>
+    </ClCompile>
+    <ClCompile Include="Info.cpp">
+      <Filter>Info</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupWinRoot.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Hp.cpp">
+      <Filter>Games\UI\Hp</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoBase.cpp">
+      <Filter>UI\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoExit.cpp">
+      <Filter>UI\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoSetting.cpp">
+      <Filter>UI\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuBase.cpp">
+      <Filter>UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultBase.cpp">
+      <Filter>UI\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultExit.cpp">
+      <Filter>UI\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseExit.cpp">
+      <Filter>UI\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PausePopup.cpp">
+      <Filter>UI\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseSetting.cpp">
+      <Filter>UI\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Magazine.cpp">
+      <Filter>Games\Bullet\Magazine</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Games\Effect\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="Fog.cpp">
+      <Filter>Games\Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="Blood.cpp">
+      <Filter>Games\Effect\Blood</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>Games\UI\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="Mine.cpp">
+      <Filter>Games\Bullet\Mine</Filter>
+    </ClCompile>
+    <ClCompile Include="Special.cpp">
+      <Filter>Games\Monster\Special</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="GameScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="ResultScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Games\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Games\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Games\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Games\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Games\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>Games\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Soldier.h">
+      <Filter>Games\Hero\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="Doctor.h">
+      <Filter>Games\Hero\Doctor</Filter>
+    </ClInclude>
+    <ClInclude Include="Man.h">
+      <Filter>Games\Hero\Man</Filter>
+    </ClInclude>
+    <ClInclude Include="Mng.h">
+      <Filter>Mng</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Games\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Grenade.h">
+      <Filter>Games\Bullet\Grenade</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Games\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Nor_3.h">
+      <Filter>Games\Monster\Nor_3</Filter>
+    </ClInclude>
+    <ClInclude Include="Nor_2.h">
+      <Filter>Games\Monster\Nor_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Nor_1.h">
+      <Filter>Games\Monster\Nor_1</Filter>
+    </ClInclude>
+    <ClInclude Include="Info.h">
+      <Filter>Info</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupWinRoot.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Hp.h">
+      <Filter>Games\UI\Hp</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoBase.h">
+      <Filter>UI\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoExit.h">
+      <Filter>UI\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoSetting.h">
+      <Filter>UI\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuBase.h">
+      <Filter>UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultBase.h">
+      <Filter>UI\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultExit.h">
+      <Filter>UI\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseExit.h">
+      <Filter>UI\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PausePopup.h">
+      <Filter>UI\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseSetting.h">
+      <Filter>UI\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Magazine.h">
+      <Filter>Games\Bullet\Magazine</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <Filter>Games\Effect\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="Fog.h">
+      <Filter>Games\Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="Blood.h">
+      <Filter>Games\Effect\Blood</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>Games\UI\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="Mine.h">
+      <Filter>Games\Bullet\Mine</Filter>
+    </ClInclude>
+    <ClInclude Include="Special.h">
+      <Filter>Games\Monster\Special</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{9e3d51de-cc1a-4187-87bc-93be50d1244a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games">
+      <UniqueIdentifier>{bbc4a9ea-e8a8-435b-9c73-ad85fa57989f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Hero">
+      <UniqueIdentifier>{7759ee58-eb21-422d-9a85-a4098d1ea4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Monster">
+      <UniqueIdentifier>{80803c2f-4b02-4003-9992-97dd32124175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Bullet">
+      <UniqueIdentifier>{4c58772e-e931-4690-9e72-2a1c107f9402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Unit">
+      <UniqueIdentifier>{e61539ce-ca67-48b3-a7f4-80c28bd9309d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Gun">
+      <UniqueIdentifier>{b7fe8548-1656-44c4-bfb2-e608b158ab22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Hero\Man">
+      <UniqueIdentifier>{f6589e75-a95b-4739-9a4d-e02a9f909cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Hero\Soldier">
+      <UniqueIdentifier>{bc10937d-c298-47a4-b6f5-6b8d4b90f3a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Hero\Doctor">
+      <UniqueIdentifier>{30469566-0f60-4702-a5e2-b0dbf7a96ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mng">
+      <UniqueIdentifier>{aa5f99c6-5955-436e-b82d-abc78876a530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Effect">
+      <UniqueIdentifier>{5b68b2e5-a579-4937-a253-663c626b1058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Bullet\Grenade">
+      <UniqueIdentifier>{734915fa-1e0d-4dc9-9240-4d6e2217e333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\UI">
+      <UniqueIdentifier>{d885f21a-1789-40b2-b48a-5ea065ae9dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Monster\Nor_1">
+      <UniqueIdentifier>{d7630d82-e9b2-4ae4-9954-ec072ccbfd1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Map">
+      <UniqueIdentifier>{5643e58c-93c1-4f69-99a6-4ae00aba7c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Monster\Nor_3">
+      <UniqueIdentifier>{be510cd0-009c-4c51-95db-aee6df6dfc0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Monster\Nor_2">
+      <UniqueIdentifier>{39643cfd-b1be-48e5-b8ce-6bf8700f1c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{27dae6f3-cd58-4af2-a051-f0ed63d7178d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\UI\Hp">
+      <UniqueIdentifier>{3f345e31-a862-4f94-9b0f-ca2cf61089d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Logo">
+      <UniqueIdentifier>{ca39e5f0-5e3e-4bed-ad50-2dc2e768fedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Result">
+      <UniqueIdentifier>{a394a46d-daea-47c7-9180-7b0f9420ba5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Game">
+      <UniqueIdentifier>{1ccd9459-e54e-4c5a-9159-1e083d93fb75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Bullet\Magazine">
+      <UniqueIdentifier>{aa4ed63f-cf23-40e0-84d9-771c3f7904fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Effect\Shadow">
+      <UniqueIdentifier>{a6d16783-a0cf-400a-a187-26b2f9b95b8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Fog">
+      <UniqueIdentifier>{210ecb08-a857-4218-85d2-b7835ccc958a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Effect\Blood">
+      <UniqueIdentifier>{7376137f-285c-46a3-ba47-87a54af67843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Menu">
+      <UniqueIdentifier>{db93ca35-dd01-4857-bd71-f0b638b19e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\UI\Intro">
+      <UniqueIdentifier>{5e2b3acd-9438-4d00-97ba-cc8a1be46676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Bullet\Mine">
+      <UniqueIdentifier>{ec503de2-3777-4bb7-89e9-a07c4af249e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Info">
+      <UniqueIdentifier>{c384bd50-92dc-4fe8-90d9-bf156f1a17d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Monster\Special">
+      <UniqueIdentifier>{5363bd6e-ccd3-481c-9317-032a4e7b6423}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

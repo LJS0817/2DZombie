@@ -1,0 +1,26 @@
+[
+	{
+		"idx":1,
+		"comment":"Default Font",
+		"file":"font\/barun.ttf",
+		"faceIndex":0,
+		"size":12,
+		"dpi":96
+	},
+	{
+		"idx":2,
+		"comment":"Large Font",
+		"file":"font\/barun.ttf",
+		"faceIndex":0,
+		"size":24,
+		"dpi":96
+	},
+	{
+		"idx":3,
+		"comment":"OS Large Font",
+		"file":"osfont",
+		"faceIndex":0,
+		"size":24,
+		"dpi":96
+	}
+]

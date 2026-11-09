@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{06E59BC0-725C-45E6-AF70-243329E4C66D}</ProjectGuid>
+    <RootNamespace>My01_윈도우만들기</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>MainGame</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25420.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PreBuildEvent>
+      <Command> xcopy ..\libary\dll\*.dll ./y</Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\EMEngine_배포버젼 %282%29\EngineSample\Libary\Include;../Libary/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>DevIL.lib;ILU.lib;ILUT.lib;glut32.lib;opengl32.lib;glu32.lib;AntTweakBar.lib;fmodex_vc.lib;glfwdll.lib;freetype.lib;ftgl_static_MT.lib;box2d.lib;OGL_Core_d.lib;EMEngine3_d.lib;Version.lib;Imm32.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\EMEngine_배포버젼 %282%29\EngineSample\Libary\lib;../Libary/Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PreBuildEvent>
+      <Command> xcopy ..\libary\dll\*.dll ./y</Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../Libary/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>DevIL.lib;ILU.lib;ILUT.lib;glut32.lib;opengl32.lib;glu32.lib;AntTweakBar.lib;fmodex_vc.lib;glfwdll.lib;freetype.lib;ftgl_static_MT.lib;box2d.lib;OGL_Core_r.lib;EMEngine3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../Libary/Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Blood.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Doctor.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="Fog.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="Grenade.cpp" />
+    <ClCompile Include="Gun.cpp" />
+    <ClCompile Include="Hero.cpp" />
+    <ClCompile Include="Hp.cpp" />
+    <ClCompile Include="Info.cpp" />
+    <ClCompile Include="Intro.cpp" />
+    <ClCompile Include="LoadScene.cpp" />
+    <ClCompile Include="LogoBase.cpp" />
+    <ClCompile Include="LogoExit.cpp" />
+    <ClCompile Include="LogoScene.cpp" />
+    <ClCompile Include="LogoSetting.cpp" />
+    <ClCompile Include="Magazine.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Man.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MenuBase.cpp" />
+    <ClCompile Include="MenuScene.cpp" />
+    <ClCompile Include="MethodScene.cpp" />
+    <ClCompile Include="Mine.cpp" />
+    <ClCompile Include="Mng.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Nor_1.cpp" />
+    <ClCompile Include="Nor_2.cpp" />
+    <ClCompile Include="Nor_3.cpp" />
+    <ClCompile Include="PauseExit.cpp" />
+    <ClCompile Include="PausePopup.cpp" />
+    <ClCompile Include="PauseSetting.cpp" />
+    <ClCompile Include="PopupWinRoot.cpp" />
+    <ClCompile Include="ResultBase.cpp" />
+    <ClCompile Include="ResultExit.cpp" />
+    <ClCompile Include="ResultScene.cpp" />
+    <ClCompile Include="Shadow.cpp" />
+    <ClCompile Include="Soldier.cpp" />
+    <ClCompile Include="Special.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="Unit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Blood.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Doctor.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="Fog.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="Grenade.h" />
+    <ClInclude Include="Gun.h" />
+    <ClInclude Include="Hero.h" />
+    <ClInclude Include="Hp.h" />
+    <ClInclude Include="Info.h" />
+    <ClInclude Include="Intro.h" />
+    <ClInclude Include="LoadScene.h" />
+    <ClInclude Include="LogoBase.h" />
+    <ClInclude Include="LogoExit.h" />
+    <ClInclude Include="LogoScene.h" />
+    <ClInclude Include="LogoSetting.h" />
+    <ClInclude Include="Magazine.h" />
+    <ClInclude Include="Man.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="MenuBase.h" />
+    <ClInclude Include="MenuScene.h" />
+    <ClInclude Include="MethodScene.h" />
+    <ClInclude Include="Mine.h" />
+    <ClInclude Include="Mng.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="Nor_1.h" />
+    <ClInclude Include="Nor_2.h" />
+    <ClInclude Include="Nor_3.h" />
+    <ClInclude Include="PauseExit.h" />
+    <ClInclude Include="PausePopup.h" />
+    <ClInclude Include="PauseSetting.h" />
+    <ClInclude Include="PopupWinRoot.h" />
+    <ClInclude Include="ResultBase.h" />
+    <ClInclude Include="ResultExit.h" />
+    <ClInclude Include="ResultScene.h" />
+    <ClInclude Include="Shadow.h" />
+    <ClInclude Include="Soldier.h" />
+    <ClInclude Include="Special.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="Unit.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
